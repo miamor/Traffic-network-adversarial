@@ -1,8 +1,11 @@
 # Detect attack conversation & IP with supervised learning. Adversarial attack  
 
-## Data, model, result: 
-<https://github.com/miamor/Traffic-network-adversarial>
+<https://github.com/miamor/Traffic-network-adversarial>  
 
+Navigate to this [drive link](https://drive.google.com/drive/folders/1x4YxjIXItnTrDuSkzav0QXtJqC6heNvF?usp=sharing) to download all data, models and result.   
+
+
+## Folder description
 `u0` : Generate features  
 `u1` : Generate features for flows  
 `u4-1` : Aggregate flows of the same `Conversation` (`SrcAddr->DstAddr`), `State`, and `Proto` within a window time (`window_width=7200(s)`, `window_stride=3600(s)`) into one record  
