@@ -4,6 +4,28 @@
 
 Navigate to this [drive link](https://drive.google.com/drive/folders/18A4jHpMKlQZllyK2V4Ds9pufWk5WF8uG?usp=sharing) to download all data, models and result.   
 
+## Result
+### Original result of model output on test set
+| 	precision |	recall |	f1-score |	Score |
+--- | --- | --- | --- |
+| Class 0 (normal) |	1.0000 |	0.9479 |	0.9732 |	18166 |
+| Class 1 (attack) |	0.0596 |	1.0000 |	0.1125 |	60 |
+| Accuracy |	 |		0.9480 |	18226 |
+| Macro avg |	0.5298 |	0.9739 |	0.5429 |	18226 |
+| Weighted avg |	0.9969 |	0.9480 |	0.9704 |	18226 |
+| AUC |	 |	 | 	0.9739 |
+### New result on test set after applying scoring threshold
+| 	precision |	recall |	f1-score |	Score |
+--- | --- | --- | --- |
+| Class 0 (normal) |	1.0000 |	0.9620 |	0.9806 |	18166
+| Class 1 (attack) |	0.0799 |	1.0000 |	0.1480 |	60
+| Accuracy |	 |	 |	0.9621 |	18226
+| Macro avg |	0.5399 |	0.9810 |	0.5643 |	18226
+| Weighted avg |	0.9970 |	0.9621 |	0.9779 |	18226
+| AUC |	 |	 |	 0.9810
+
+### More on `Report.docx` and `u4-5.lr.ipynb`, `u4-6.evaluate.ipynb`, and `u4-7.adversarial.ipynb`.
+
 
 ## Folder description
 `u0` : Generate features  
